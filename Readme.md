@@ -9,8 +9,8 @@ You might need some programming knowledge to get this working or just modify thi
 I will try my best to explain every single detail so you can create your own customJS script.
 
 At anytime you having issue with javascript, use `Ctrl + Shift + i` to open the developer console and see if you can track the error.
-
 ## Weather
+![Alt text](./weather.png)
 ### In the notes where you want to display the content add the following:
 1. Import the class using `const {WeatherGov} = customJS;`. This `WeatherGov` is the same name as your javascript file's class name.
 2. Create a new div container in your note page to hold the data
@@ -27,6 +27,7 @@ await WeatherGov.getWeather(element)
 ```
 
 ## Hacker News
+![Alt text](./hackernews.png)
 ### In the notes where you want to display the content add the following:
 1. Import the class using `const {News} = customJS;`. This `Newr` is the same name as your javascript file's class name.
 2. Create a new div container in your note page to hold the data
