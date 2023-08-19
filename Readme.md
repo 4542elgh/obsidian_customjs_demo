@@ -8,7 +8,14 @@ This is a very simple demo of `CustomJS` and `Dataview` plugin.
 You might need some programming knowledge to get this working or just modify this demo project to your need. 
 I will try my best to explain every single detail so you can create your own customJS script.
 
-At anytime you having issue with javascript, use `Ctrl + Shift + i` to open the developer console and see if you can track the error.
+At anytime you having issue with javascript, use `Ctrl + Shift + i` to open the developer console and see if you can track the error. 
+Also there is a chance you need to restart your obsidian vault for plugin things to work properly the first time, try restarting if something weird is happening
+
+# Dataview
+You need to install the plugin but I leave everything as default
+# CustomJS setup
+You can specify to the parent folder of your scripts, all my scripts are inside `__data__/javascript` and I only have to specify to `__data__` folder
+![Alt text](./customjs_setup.png)
 ## Weather
 ![Alt text](./weather.png)
 ### In the notes where you want to display the content add the following:
